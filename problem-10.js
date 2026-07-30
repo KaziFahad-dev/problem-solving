@@ -9,8 +9,8 @@ function smallestNumber(array){
             smallest = currentNumber;
         }
     }
-    return largest;
+    return smallest;
 }
 
 
-console.log(largestNumber([1,2,3,4,5,6,7,8,9,10,112,149,1000, 12348]));
+console.log(smallestNumber([1,2,3,4,5,6,7,8,9,10,112,149,1000, 12348]));
